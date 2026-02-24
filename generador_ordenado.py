@@ -17,7 +17,7 @@ DIST_LEN = 20
 RECORD_STRUCT = struct.Struct(f">{NAME_LEN}s B I {PROV_LEN}s {CANT_LEN}s {DIST_LEN}s I")
 RECORD_SIZE = RECORD_STRUCT.size
 
-# --------- DATOS MEJORADOS (más opciones) ----------
+
 NOMBRES = [
     "Mario", "Ana", "Luis", "Sofía", "Carlos", "María", "Jorge", 
     "Laura", "Pedro", "Andrea", "José", "Gabriela", "Juan", "Fernanda",

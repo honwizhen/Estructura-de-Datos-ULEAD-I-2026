@@ -1,7 +1,6 @@
 import struct
 from datetime import date
 
-# --------- Estructura binaria (MISMA QUE EN EL GENERADOR) ----------
 COUNT_STRUCT = struct.Struct(">I")
 
 NAME_LEN = 40
